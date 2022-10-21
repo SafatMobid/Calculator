@@ -28,7 +28,7 @@ function addBtnOnClick()
 
     const answerField = document.getElementById("answerField");
 
-    answerField.innerHTML = answer;
+    answerField.value = answer;
 
 }
 
@@ -44,7 +44,7 @@ function subtBtnOnClick()
 
     const answerField = document.getElementById("answerField");
 
-    answerField.innerHTML = answer;
+    answerField.value = answer;
 
 }
 
@@ -60,7 +60,7 @@ function multBtnOnClick()
 
     const answerField = document.getElementById("answerField");
 
-    answerField.innerHTML = answer;
+    answerField.value = answer;
 
 }
 
@@ -76,6 +76,6 @@ function diviBtnOnClick()
 
     const answerField = document.getElementById("answerField");
 
-    answerField.innerHTML = answer;
+    answerField.value = answer;
 
 }
